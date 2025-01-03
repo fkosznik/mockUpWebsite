@@ -1,0 +1,36 @@
+.home-about {
+  &__main {
+    @extend .row;
+    align-items: center;
+    background-color: $gray;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    width: 100%;
+    box-shadow: -70rem 0 0 0 #f8f8f8;
+    clip-path: inset(0 -100vmax);
+    &__text {
+      @extend .col-xxl-6;
+      display: flex;
+      padding: 3rem;
+      h5 {
+        padding-bottom: 1rem;
+        font-weight: 550;
+        color: $text-color;
+      }
+      p {
+        padding-bottom: 1rem;
+      }
+    }
+    &__decor {
+      @extend .col-xxl-3;
+      display: none;
+      @extend .d-xxl-block;
+    }
+    &__img {
+      @extend .col-xxl-3;
+      display: flex;
+      justify-content: end;
+      padding: 2rem;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+body {
+  transition: font-size 0.3s ease-in-out;
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $primary;
+    }
+    &:active {
+      border: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  h3 {
+    font-weight: 500;
+    color: $text-color;
+    padding: 2rem 0.5rem;
+  }
+}

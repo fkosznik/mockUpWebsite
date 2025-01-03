@@ -1,0 +1,41 @@
+.high-contrast {
+  * {
+    background-color: rgb(27, 27, 27) !important;
+    color: yellow !important;
+    border-color: yellow !important;
+    text-decoration: underline;
+
+    a {
+      &:hover {
+        color: white !important;
+        text-decoration: underline rgb(27, 27, 27);
+      }
+    }
+    ::placeholder {
+      color: yellow;
+    }
+
+    button {
+      background-color: yellow !important;
+      color: black !important;
+      font-weight: 600;
+      &:hover {
+        color: white !important;
+        background-color: black !important;
+
+        text-decoration: none;
+      }
+    }
+
+    img,
+    svg {
+      filter: grayscale(100%);
+    }
+  }
+  .footer__logos {
+    box-shadow: 0 0 0 100vmax rgb(27, 27, 27);
+  }
+  .home-about__main {
+    box-shadow: 0 0 0 100vmax rgb(27, 27, 27);
+  }
+}

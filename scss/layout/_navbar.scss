@@ -1,0 +1,15 @@
+.navbar-nav {
+  gap: 7rem;
+  .nav-link {
+    padding: 0 0.2rem;
+    font-weight: 600;
+    text-wrap: nowrap;
+
+    &:active {
+      color: $primary;
+    }
+    &:hover {
+      color: $primary;
+    }
+  }
+}

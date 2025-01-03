@@ -1,0 +1,19 @@
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  background-color: transparent;
+  border: none;
+  padding: 2rem 0.5rem;
+  h5 {
+    color: $primary;
+    font-weight: 600;
+  }
+}
+.card-body {
+  padding: var(--bs-card-spacer-y) 0;
+}

@@ -1,0 +1,12 @@
+@mixin focus-outline {
+  &:focus {
+    outline: 3px solid $focus-outline-color;
+    outline-offset: 4px;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

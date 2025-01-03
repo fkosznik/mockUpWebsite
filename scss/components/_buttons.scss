@@ -1,0 +1,27 @@
+button {
+  background-color: $primary;
+  color: #ffffff;
+  padding: 0.2rem 2rem;
+  border-radius: 50px;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  height: 44px;
+  text-wrap: nowrap;
+
+  &:hover {
+    background-color: darken($primary, 10%);
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: 2px solid lighten($primary, 20%);
+    outline-offset: 4px;
+  }
+}
+.button2 {
+  background-color: #b1b3b3;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "FilipK",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.80.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

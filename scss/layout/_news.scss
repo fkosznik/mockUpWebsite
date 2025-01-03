@@ -1,0 +1,24 @@
+.home-news {
+  &__main {
+    background-color: $gray;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    width: 100%;
+    box-shadow: 0 0 0 100vmax $gray;
+    clip-path: inset(0 -100vmax);
+    &__card {
+      @extend .card-group;
+      @extend .container-xxl;
+      a {
+        padding: 1rem;
+      }
+    }
+    &__bottom {
+      @extend .container-xxl;
+      div {
+        padding-left: 0.5rem;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}

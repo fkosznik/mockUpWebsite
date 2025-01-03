@@ -1,0 +1,33 @@
+.event-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    position: relative;
+    padding-left: 1.5rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.3rem;
+      width: 1rem;
+      height: 1rem;
+
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  li:nth-child(1)::before {
+    background-image: url("/assets/img/fontisto_date.svg");
+  }
+  li:nth-child(2)::before {
+    background-image: url("/assets/img/clock.svg");
+  }
+  li:nth-child(3)::before {
+    background-image: url("/assets/img/location.svg");
+  }
+  li:nth-child(4)::before {
+    background-image: none;
+  }
+}

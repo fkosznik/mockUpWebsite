@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "utils/variables";
+@import "utils/mixins";
+@import "base/typography";
+@import "components/buttons";
+@import "components/carousel";
+@import "components/card";
+@import "components/list";
+
+@import "themes/main";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/offers";
+@import "layout/about";
+
+@import "layout/news";
+@import "layout/events";
+@import "themes/darktheme";

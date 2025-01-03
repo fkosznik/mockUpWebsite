@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fundusz Górnośląski</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-xxl">
+        <div class="pre-header">
+          <div class="pre-header__logo">
+            <img src="./assets/img/funduszgor.svg" alt="Fundusz Górnośląsk" />
+            <img src="./assets/img/inter.svg" alt="Inter Silesia" />
+            <img src="./assets/img/euro.svg" alt="Unia Europejska" />
+          </div>
+
+          <div class="pre-header__icons">
+            <div>
+              <a
+                href="#"
+                style="font-size: small"
+                id="decrease-font"
+                aria-label="zmniejsz rozmiar tekstu"
+                >A-</a
+              >
+              <a
+                href="#"
+                id="reset-font"
+                style="font-weight: 500"
+                aria-label="tekst normalny"
+                >A</a
+              >
+              <a
+                href="#"
+                style="font-size: small"
+                id="increase-font"
+                aria-label="zwiększ rozmiar tekstu"
+                >A+</a
+              >
+
+              <a href="#" id="contrast-toggle" aria-label="Wysoki kontrast">
+                <img src="./assets/img/contrast.svg" alt="" />
+              </a>
+            </div>
+
+            <div>
+              <a href="#" aria-label="Link zewnętrzny - Facebook"
+                ><img src="./assets/img/fb.svg" alt="Facebook" />
+              </a>
+              <a href="#" aria-label="Link zewnętrzny - LinkedIn"
+                ><img src="./assets/img/linkedin.svg" alt="Facebook" />
+              </a>
+            </div>
+
+            <a href="" style="font-weight: 500" aria-label="język angielski"
+              >EN</a
+            >
+            <form class="search-box" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="SZUKAJ..."
+                aria-label="szukaj"
+              />
+              <button class="" type="submit" aria-label="szukaj">
+                <!-- nmg ściągnąć z figmy svg -->
+                <img src="./assets/img/Vector.jpg" alt="szukaj" />
+              </button>
+            </form>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-xl">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="nawigacja"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="uslugi" href="#"
+                  >USŁUGI</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="projekty" href="#"
+                  >PROJEKTY</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="o nas" href="#"
+                  >O NAS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="kariera" href="#"
+                  >KARIERA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="zamowienia publiczne"
+                  href="#"
+                  >ZAMÓWIENIA PUB.</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex">
+              <button aria-label="kontakt">KONTAKT</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div id="carousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="slajd 1"
+            >
+              1
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+              aria-label="slajd 2"
+            >
+              2
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+              aria-label="slajd 3"
+            >
+              3
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="3"
+              aria-label="slajd 4"
+            >
+              4
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-xxl carousel-slide">
+                <div class="row">
+                  <div class="col-xxl-11">
+                    <img
+                      src="./assets/img/car1.svg"
+                      alt="zdjecie"
+                      aria-label="zdjecie"
+                    />
+                  </div>
+                  <div class="col-xxl-1 d-flex align-items-center">
+                    <div class="carousel-caption">
+                      <h2>Finansujemy rozwój regionu</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id tellus sit
+                        sapien ut rhoncus congue non. Turpis quam elementum
+                        convallis scelerisque...
+                      </p>
+                      <button aria-label="czytaj WIĘCEJ">CZYTAJ WIĘCEJ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-xxl carousel-slide">
+                <div class="row">
+                  <div class="col-xxl-11">
+                    <img
+                      src="./assets/img/car1.svg"
+                      alt="zdjecie"
+                      aria-label="zdjecie"
+                    />
+                  </div>
+                  <div class="col-xxl-1 d-flex align-items-center">
+                    <div class="carousel-caption">
+                      <h2>Finansujemy rozwój regionu</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id tellus sit
+                        sapien ut rhoncus congue non. Turpis quam elementum
+                        convallis scelerisque...
+                      </p>
+                      <button aria-label="czytaj WIĘCEJ">CZYTAJ WIĘCEJ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-xxl carousel-slide">
+                <div class="row">
+                  <div class="col-xxl-11">
+                    <img
+                      src="./assets/img/car1.svg"
+                      alt="zdjecie"
+                      aria-label="zdjecie"
+                    />
+                  </div>
+                  <div class="col-xxl-1 d-flex align-items-center">
+                    <div class="carousel-caption">
+                      <h2>Finansujemy rozwój regionu</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id tellus sit
+                        sapien ut rhoncus congue non. Turpis quam elementum
+                        convallis scelerisque...
+                      </p>
+                      <button aria-label="czytaj WIĘCEJ">CZYTAJ WIĘCEJ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-xxl carousel-slide">
+                <div class="row">
+                  <div class="col-xxl-11">
+                    <img
+                      src="./assets/img/car1.svg"
+                      alt="zdjecie"
+                      aria-label="zdjecie"
+                    />
+                  </div>
+                  <div class="col-xxl-1 d-flex align-items-center">
+                    <div class="carousel-caption">
+                      <h2>Finansujemy rozwój regionu</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id tellus sit
+                        sapien ut rhoncus congue non. Turpis quam elementum
+                        convallis scelerisque...
+                      </p>
+                      <button aria-label="czytaj WIĘCEJ">CZYTAJ WIĘCEJ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line d-none d-xl-block" style="z-index: -1">
+            <img src="./assets/img/line.svg" alt="" />
+          </div>
+          <div class="decor"><img src="./assets/img/kule.svg" alt="" /></div>
+        </div>
+      </section>
+      <section class="home-offer">
+        <div
+          class="container-xxl d-flex justify-content-center"
+          style="padding-top: 2rem"
+        >
+          <img
+            src="./assets/img/funduszgor.svg"
+            alt="fundsz gornoslaski"
+            aria-label=" fundusz gornoslaski"
+            style="height: 2rem"
+          />
+        </div>
+        <div class="home-offer__toper">
+          <h2>Finansujemy rozwój regionu, wspieramy przedsiębiorczych</h2>
+          <p>
+            Fundusz Górnośląski jest inicjatorem i wiodącym uczestnikiem
+            przemian gospodarczych województwa śląskiego w sektorze Małych
+            i Średnich Przedsiębiorstw. Jako rzetelny i stabilny partner,
+            udziela podmiotom gospodarczym profesjonalnego wsparcia, oferując
+            środki finansowe, innowacyjne rozwiązania oraz pomoc w rozwijaniu
+            międzynarodowej aktywności biznesu.
+          </p>
+        </div>
+        <div class="decor2"><img src="./assets/img/kule.svg" alt="" /></div>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="./assets/img/finansowanie.svg"
+              class="card-img-top"
+              alt="zdjecia"
+              aria-label="zdjecie"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <img
+                  src="./assets/img/malelogo.svg"
+                  alt="logo fundusz"
+                  aria-label="logo fundusz"
+                />FINANSOWANIE
+              </h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/img/projekty.svg"
+              class="card-img-top"
+              alt="zdjecie"
+              aria-label="zdjecie"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <img
+                  src="./assets/img/malelogo.svg"
+                  alt="logo fundusz"
+                  aria-label="logo fundusz"
+                />PROJEKTY
+              </h5>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/img/szkolenia.svg"
+              class="card-img-top"
+              alt="adjecie"
+              aria-label="zdjecie"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <img
+                  src="./assets/img/malelogo.svg"
+                  alt="logo fundusz"
+                  aria-label="logo fundusz"
+                />SZKOLENIA
+              </h5>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/img/nieruchomosci.svg"
+              class="card-img-top"
+              alt="zdjecie"
+              aria-label="zdjecie"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <img
+                  src="./assets/img/malelogo.svg"
+                  alt="logo fundusz"
+                  aria-label="logo fundusz"
+                />NIERUCHOMOŚCI
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home-about">
+        <div class="container-xxl">
+          <div class="home-about__main">
+            <div class="home-about__main__text">
+              <div>
+                <h5>Pomagamy przedsiębiorczym!</h5>
+                <p>
+                  Zapoznaj się z naszą wizją i misją Funduszu oraz sprawdź
+                  ofertę, którą dla Ciebie przygotowaliśmy. Fundusz Górnośląski
+                  SA powstał w 1995 roku. Do jego głównych zadań od początku
+                  należy rozwój rynków kapitałowych w regionie oraz działanie
+                  na rzecz rozwoju przedsiębiorczości i tworzenia nowych miejsc
+                  pracy.
+                </p>
+                <button>O FUNDUSZU</button>
+              </div>
+            </div>
+            <div class="home-about__main__decor">
+              <img src="./assets/img/zamek.svg" alt="" />
+            </div>
+            <div class="home-about__main__img">
+              <img
+                src="./assets/img/poma.svg"
+                alt="zdjecie"
+                aria-label="zdjecie"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container-xxl">
+          <img
+            src="./assets/img/czer.svg"
+            style="margin-left: 30rem; padding-top: 1rem"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="home-news">
+        <div class="container-xxl">
+          <h3>Aktualności</h3>
+        </div>
+        <div class="home-news__main">
+          <div class="home-news__main__card">
+            <div class="card">
+              <img
+                src="./assets/img/zagraniczna.svg"
+                class="card-img-top"
+                alt="wiadomosci"
+                aria-label="wiadomosci"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Zagraniczna Misja Gospodarcza do Maroka – zapraszamy
+                  do udziału!
+                </h5>
+                <p class="card-text">
+                  Ministerstwo Rozwoju i Technologii zakończyło realizację
+                  projektu opracowania listy substancji farmaceutycznych...
+                </p>
+                <button>CZYTAJ WIĘCEJ</button>
+                <a>10-04-2024</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/img/przedluzenie.svg"
+                class="card-img-top"
+                alt="wiadomosci"
+                aria-label="widomosci"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Przedłużenie umowy na biuro Funduszu Górnośląskiego w Abu Dabi
+                </h5>
+                <p class="card-text">
+                  Ministerstwo Rozwoju i Technologii zakończyło realizację
+                  projektu opracowania listy substancji farmaceutycznych...
+                </p>
+                <button>CZYTAJ WIĘCEJ</button>
+                <a>10-04-2024</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/img/konferencja.svg"
+                class="card-img-top"
+                alt="zdjecie"
+                aria-label="widomosci"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Konferencja o dotacjach: podsumowanie
+                </h5>
+                <p class="card-text">
+                  Ministerstwo Rozwoju i Technologii zakończyło realizację
+                  projektu opracowania listy substancji farmaceutycznych...
+                </p>
+                <button>CZYTAJ WIĘCEJ</button>
+                <a>10-04-2024</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-news__main__bottom">
+            <div>
+              <button class="button2" aria-label="WSZYSTKIE aktualnosci">
+                WSZYSTKIE AKTUALNOŚCI
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="events">
+        <div class="container-xxl">
+          <h3>Nadchodzące wydarzenia</h3>
+        </div>
+        <div class="container-xxl d-flex flex-wrap">
+          <div class="col-xxl-3">
+            <img src="./assets/img/ludzie.svg" alt="..." />
+          </div>
+          <div class="col-xxl-6">
+            <div class="row">
+              <h4>
+                Seminarium "Przykładowy tytuł" z zakresu finansowania biznesu
+                oraz rozwoju firmy
+              </h4>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="event-list">
+                  <li>24.04.2024</li>
+                  <li>8:00 - 16:00</li>
+                  <li>ul. Sokolska 8</li>
+                  <li>40-086 Katowice</li>
+                </ul>
+
+                <button aria-label="czytaj wiecej">CZYTAJ WIĘCEJ</button>
+              </div>
+              <div class="col" id="event-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Eget urna urna in
+                  suspendisse donec in in. Imperdiet sit sodales nullam risus
+                  curabitur ultrices lacus euismod.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 justify-content-end">
+            <img src="./assets/img/kalendarz.svg" alt="" />
+          </div>
+        </div>
+        <div class="container-xxl">
+          <div style="padding-left: 0.5rem; padding: 2rem 0">
+            <button class="button2">WSZYSTKIE AKTUALNOŚCI</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-xxl-5" style="padding: 0">
+            <div class="footer__decor"><a></a></div>
+            <button>
+              ZAPIS DO NEWSLETTERA <img src="./assets/img/mail.svg" alt="" />
+            </button>
+          </div>
+          <div class="col-xxl-7 d-flex justify-content-center footer__logos">
+            <img src="./assets/img/slaskie.svg" alt="" />
+            <img src="./assets/img/enter.svg" alt="" />
+            <img src="./assets/img/sr.svg" alt="" />
+            <img src="./assets/img/inter.svg" alt="" />
+            <img src="./assets/img/euro.svg" alt="" />
+          </div>
+        </div>
+        <div class="row" style="margin-top: 2rem">
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="footer__title">Uslugi dla firm</div>
+            <hr class="mt-4" />
+            <ul>
+              <li>
+                <a href="">Finansowanie</a>
+              </li>
+              <li>
+                <a href="">Inkubator MSP</a>
+              </li>
+              <li>
+                <a href="">Współpraca zagraniczna</a>
+              </li>
+              <li>
+                <a href="">Szkolenia</a>
+              </li>
+              <li>
+                <a href="">Nieruchomości</a>
+              </li>
+            </ul>
+
+            <div class="footer__title">Projekty</div>
+            <hr class="mt-4" />
+            <ul>
+              <li>
+                <a href="">Realizowane</a>
+              </li>
+              <li>
+                <a href="">Zrealizowane</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="footer__title">O nas</div>
+            <hr class="mt-4" />
+            <ul>
+              <li><a href="">Kim jestesmy</a></li>
+              <li>
+                <a href="">Zarzad Spolki</a>
+              </li>
+              <li>
+                <a href="">Grupa kapitalowa</a>
+              </li>
+              <li><a href="">Aktualnosci</a></li>
+              <li><a href="">Dla mediow</a></li>
+            </ul>
+
+            <div class="footer__title">Kariera</div>
+            <hr class="mt-4" />
+            <ul>
+              <li>
+                <a href="">Oferty pracy</a>
+              </li>
+              <li>
+                <a href="">Zasady rekrutacji</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-5 col-lg-3 text-end">
+            <div class="footer__title">Fundusz Górnośląski S.A.</div>
+            <img src="./assets/img/funwhite.svg" alt="" />
+          </div>
+          <div
+            class="col-sm-5 offset-sm-1 col-lg-3 offset-lg-0 ps-xxl-5 mt-5 mt-sm-0"
+          >
+            <div class="footer__text">
+              <div>
+                <p>
+                  40-086 Katowice<br />
+                  ul. Sokolska 8
+                </p>
+              </div>
+            </div>
+            <div
+              class="h6 text-lg-end mt-5 footer__text"
+              style="font-weight: 600"
+            >
+              <h6>Punkt Obsługi Klienta</h6>
+            </div>
+            <div class="footer__text">
+              <div>
+                <p>
+                  tel. +48 123 144 155<br />
+                  email: dujbasd@gmail.com <br />
+                </p>
+                <a
+                  ><img
+                    src="./assets/img/fb.svg"
+                    alt=""
+                    style="padding-right: 0.5rem"
+                /></a>
+                <a><img src="./assets/img/linkedin.svg" alt="..." /></a>
+              </div>
+            </div>
+            <hr class="mb-4" style="margin-left: auto" />
+            <div class="footer__text">
+              <p>
+                Copyright © 2024 Fundusz Górnośląski S.A. <br />
+                All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/contrast.js"></script>
+    <script src="./assets/js/fontsize.js"></script>
+  </body>
+</html>
